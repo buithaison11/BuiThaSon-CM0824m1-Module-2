@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul.a {
+            list-style-position: inside;
+        }
+
+        ul.b {
+            list-style-position: outside;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        Vị trí đánh dấu các mục trong danh sách
+        Thuộc tính list-style-position xác định nơi sẽ đánh dấu các mục của danh sách sẽ xuất hiện bên 
+        trong hoặc bên ngoài dòng nội dung:
+    -->
+    <p>Danh sách dưới đây được thiết lập list-style-position: inside:</p>
+    <ul class="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <p>Danh sách dưới đây được thiết lập list-style-position: outside:</p>
+    <ul class="b">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <p>"list-style-position: outside" là thiết lập mặc định.</p>
+
+
+
+
+    <!-- Danh sách thuộc tính rút gọn -->
+    <!-- 
+    ul {
+        list-style: square inside url("http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png");
+    } 
+
+    Khi sử dụng thuộc tính rút gọn, thứ tự của các giá trị trong thuộc tính là:
+
+    list-style-type (nếu một danh sách đánh dâu bằng hình ảnh được chỉ định, giá trị của thuộc tính này sẽ được hiển thị nếu hình ảnh vì một số lý do nào đó không thể hiển thị)
+    list-style-position (xác định cho vị trí đánh dấu mục danh sách xuất hiện bên trong hoặc bên ngoài dòng nội dung)
+    list-style-image (chỉ định một hình ảnh như để đánh dấu các mục của danh sách)
+    
+    Nếu một trong các giá trị thuộc tính ở trên bị thiếu, giá trị mặc định cho của các thuộc tính này sẽ được sử dụng, nếu có.
+    -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+</body>
+
+</html>

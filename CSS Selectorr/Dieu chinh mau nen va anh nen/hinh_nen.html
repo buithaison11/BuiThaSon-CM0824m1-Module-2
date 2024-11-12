@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {
+            background-image: url(./winxp.jpg);
+        } */
+        body {
+            color: #ffffff;
+            background-image: url(./winxp.jpg);
+            /* background-repeat: repeat-x; */
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Thuộc tính background-image chỉ định một hình ảnh dùng để làm nền cho một phần tử.
+
+            Mặc định, hình ảnh nền sẽ lặp đi lặp lại để nó trải ra toàn bộ phần tử.
+    -->
+
+    <!-- 
+        Hình nền – lặp lại theo chiều ngang hoặc theo chiều dọc
+        Mặc định, thuộc tính background-mage lặp hình ảnh theo chiều ngang và theo chiều dọc. 
+        Nhưng trong một số trường hợp, chúng ta cần thiết lập để hình ảnh chỉ lặp lại theo chiều ngang hoặc chiều dọc để có được nền mong muốn. 
+        Chẳng hạn, trong trường hợp sau, nếu chúng ta để mặc định thì hình ảnh sẽ được lặp theo cả hai chiều:
+     -->
+    <h1>Hello World!</h1>
+    <p>Strange background image...</p>
+
+    <!-- Chúng ta điều chỉnh để hình ảnh chỉ lặp theo chiều ngang: 
+        
+        body {
+            color: #ffffff;
+            background-image: url();
+            background-repeat: repeat-x;
+        }
+        Tương tự, chúng ta có thể sử dụng thuộc tính background-repeat với giá trị là repeat-y nếu muốn lặp ảnh nền theo chiều dọc.
+    -->
+
+    <!-- Hình nền – Quy định vị trí ảnh và không lặp lại -->
+    <!-- background-repeat: no-repeat; -->
+
+    <!-- Trong ví dụ trên, hình nền được hiển thị trong cùng một vị trí với các văn bản. 
+       Nếu chúng ta muốn thay đổi vị trí của ảnh thì có thể sử dụng thuộc tính background-position:-->
+
+    <!-- background-position: right top; -->
+
+    <!-- Hình nền – Cố định vị trí:
+        
+            body {
+                background-image: url();
+                background-repeat: no-repeat;
+                background-position: right top;
+                margin-right: 200px;
+                background-attachment: fixed;
+            }
+    -->
+
+    <!-- Nền – Thuộc tính rút gọn:
+     
+            body {
+            background: #ffffff url() no-repeat right top;
+            margin-right: 200px;
+        }
+    -->
+
+    <!-- Khi sử dụng thuộc tính rút gọn, thứ tự của các giá trị tương ứng với các thuộc tính là:
+
+            background-color
+            background-image
+            background-repeat
+            background-attachment
+            background-position
+
+        Chúng ta có thể bỏ qua giá trị của một số thuộc tính, nhưng cần phải tuân thủ thứ tự trên. 
+    -->
+</body>
+
+</html>
